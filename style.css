@@ -1,0 +1,24 @@
+.note {
+    font-size: 15px;
+    color: black;
+    float: center;
+}
+
+body {
+    background-size: cover;
+}
+
+#song_changer {
+    background-color: white;
+    margin: 100px;
+    width: 500px;
+    height: 500px;
+    border-radius: 50px;
+    border: teal;
+    box-shadow: white 5px, 5px;
+}
+
+#heading {
+    float: center;
+    font-size: 25px;
+}
