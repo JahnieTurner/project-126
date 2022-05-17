@@ -7,12 +7,12 @@ function preload() {
 }
 
 function setup() {
-    canvas = createCanvas();
+    canvas = createCanvas(500, 500);
     canvas.center();
-    canvas = createCapture(VIDEO);
+    video = createCapture(VIDEO);
     video.hide();
 }
 
 function draw() {
-    image(video, 0, 0, 600, 500)
+    image(video, 0, 0, 500, 500)
 }
