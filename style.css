@@ -9,12 +9,12 @@ body {
 }
 
 #song_changer {
-    border: 5px solid white;
+    border: 15px solid black;
     margin: 100px;
     width: 500px;
     height: 500px;
     border-radius: 50px;
-    box-shadow: white 5px, 5px;
+    box-shadow: black 5px, 5px;
 }
 
 #heading {
