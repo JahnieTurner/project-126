@@ -30,6 +30,7 @@ function gotPoses(results) {
         rightWristY = results[0].pose.rightWrist.y;
         console.log("leftWristX = " + leftWristX + "leftWristY = " + leftWristY);
         scoreLeftWrist = results[0].pose.keypoints[9].score;
+        console.log("rightWristX = " + rightWristX + "rightWristY = " + rightWristY);
 
     }
 }
@@ -43,6 +44,16 @@ function draw() {
     stroke("FF0000");
     color("FF0000");
 
+
+    if (scoreLeftWrist > 0.2) {
+        circle(0, 0, 200, 200)
+        music1.stop()
+    }
+
+    if (music2 == false) {
+        music2.isPlaying()
+        document.getElementById(music2).innerHTML
+    }
 
     if (scoreLeftWrist > 0.2) {
         circle(0, 0, 200, 200)
